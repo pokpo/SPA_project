@@ -197,9 +197,9 @@ body{
 .main-galery-list__image-hover{
     position: absolute;
     opacity: 0;
-    margin-top: 100%;
+    margin-top: 80%;
     transition: margin-top .5s, opacity 1s;
-    top: 13px;
+    top: 14px;
     left: 15px;
 
 }
@@ -341,16 +341,15 @@ body{
     vertical-align: top;
 }
 
-.main-contacts-container-right-list__item-inst{
-    list-style: url(../image/contacts__instagram.png);
-}
-
-.main-contacts-container-right-list__item-fb{
-    list-style: url(../image/contacts__facebook.png);
+.main-contacts-container-right-list__item-inst-image,.main-contacts-container-right-list__item-fb-image{
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 .main-contacts-container-right-list__item-inst,.main-contacts-container-right-list__item-fb{
     font-size: 16px;
+    list-style: none;
+    vertical-align: top;
 }
 
 .main-contacts-container-right-list__item-inst{
