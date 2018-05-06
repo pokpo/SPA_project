@@ -155,6 +155,20 @@ body{
     padding:0 0 50px;
     margin-right: 163px;}
 
+.main-akcii{
+    width: 1400px;
+    float: right;
+    padding-bottom: 0;
+    margin-right: 100px;
+}
+
+.main-contacts{
+    width: 1300px;
+    float: right;
+    margin-right: 200px;
+    padding-bottom: 50px;
+}
+
 .main-header{
      background: url(../image/main-header.png) no-repeat center;
     color: #fff;
@@ -163,7 +177,7 @@ body{
     font-size: 42px;
     width: 730px;
     height: 80px;
-    margin: 0 auto 60px;   
+    margin: 0 auto 60px;  
 }
 
 .main-akcii-header{
@@ -254,13 +268,6 @@ body{
     margin-top: -40px;
 }
 
-.main-akcii{
-    width: 1400px;
-    float: right;
-    padding-bottom: 0;
-    margin-right: 100px;
-}
-
 .main-akcii-container{
     padding: 40px 0 60px;
 }
@@ -299,4 +306,53 @@ body{
 .main-akcii-container-text-description__text,.main-akcii-container-text-description-list__item,.main-akcii-container-text-description-block__name{
     font-size: 16px;
     font-style: italic;
+}
+
+.main-contacts-container-header{
+    text-align: center;
+    color: #222;
+    font-size: 36px;
+}
+
+.main-contacts-container-left,.main-contacts-container-right{
+    display: inline-block;
+}
+
+.main-contacts-container-left-list__item-location{
+    list-style: url(../image/contacts_placeholder.png);
+}
+
+.main-contacts-container-left-list__item-phone{
+    list-style: url(../image/contacts__phone.png);
+}
+
+.main-contacts-container-left-list__item-location,.main-contacts-container-left-list__item-phone,.main-contacts-container-right-list__item-inst,.main-contacts-container-right-list__item-fb{
+    color: #222;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+
+.main-contacts-container-left{
+    margin: 0 185px;
+    width: 314px;
+    vertical-align: top;
+}
+
+.main-contacts-container-right-list__item-inst{
+    list-style: url(../image/contacts__instagram.png);
+}
+
+.main-contacts-container-right-list__item-fb{
+    list-style: url(../image/contacts__facebook.png);
+}
+
+.main-contacts-container-right-list__item-inst,.main-contacts-container-right-list__item-fb{
+    font-size: 16px;
+}
+
+.main-contacts-container-right-list__item-inst{
+    margin-bottom: 50px;
 }
