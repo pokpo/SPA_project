@@ -49,7 +49,12 @@ body{
     text-decoration: none;
     line-height: 9.5;
     color: #000;
-}    
+}
+
+.header-list__link-chosen{
+    text-decoration: underline;
+    color: #57b536;
+}
 
 .header-list__item2{
     background: url(../image/header-circle-2.png) no-repeat;
@@ -78,6 +83,7 @@ body{
 
 .aside-list__item{
     background: url(../image/list-item-bg.png) no-repeat;
+    transition: background .7s;
     text-align: center;
     width: 267px;
     height: 40px;
@@ -86,10 +92,19 @@ body{
 
 .aside-list__link{
     font-size: 15px;
+    transition: color .7s;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
+}
+
+.aside-list__item:hover{
+     background: url(../image/aside-menu__item-hover.png) no-repeat;
+}
+
+.aside-list__item:hover .aside-list__link{
+    color: #57b536;
 }
 
 .aside-stones-wrapper{
@@ -148,16 +163,37 @@ body{
     font-size: 42px;
     width: 730px;
     height: 80px;
-    margin: 0 auto;   
+    margin: 0 auto 60px;   
+}
+
+.main-akcii-header{
+    margin-bottom: 0;
 }
 
 .main-galery-list__item{
+    position: relative;
+    overflow: hidden;
     width: 350px;
     display: inline-block;
     background: url(../image/main-list-item-BG.png) no-repeat;
     list-style-type: none;
     padding: 15px;   
 }
+
+.main-galery-list__image-hover{
+    position: absolute;
+    opacity: 0;
+    margin-top: 100%;
+    transition: margin-top .5s, opacity 1s;
+    top: 13px;
+    left: 15px;
+
+}
+
+.main-galery-list__item:hover .main-galery-list__image-hover{
+    opacity: 1;
+    margin-top: 0;
+} 
 
 .main-galery-page-nav{
     padding-left: 37px;
@@ -216,4 +252,51 @@ body{
 .main-fitobar-right__right-image{
     float: left;
     margin-top: -40px;
+}
+
+.main-akcii{
+    width: 1400px;
+    float: right;
+    padding-bottom: 0;
+    margin-right: 100px;
+}
+
+.main-akcii-container{
+    padding: 40px 0 60px;
+}
+
+.main-akcii-container-picture{
+    display: inline-block;
+    margin: 0 60px;
+}
+
+.main-akcii-container-text{
+    display: inline-block;
+    width: 555px;
+    margin: 0 60px;
+    padding-top: 40px;
+    vertical-align: top;
+}
+
+
+.main-akcii-container-text-description__header{
+    font-size: 18px;
+}
+
+.main-akcii-container-text-description-list{
+    list-style: url(../image/main-akcii-list__item.png);
+}
+
+.main-akcii-container-text-description-block{
+    border: #62ba42 solid 3px;
+    padding: 10px;
+}
+
+.main-akcii-container-text-description-block__generalname,.main-akcii-container-text-description-block__name{
+    margin: 0;
+}
+
+.main-akcii-container-text-description__text,.main-akcii-container-text-description-list__item,.main-akcii-container-text-description-block__name{
+    font-size: 16px;
+    font-style: italic;
 }
