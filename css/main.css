@@ -472,7 +472,7 @@ body{
 
 .main-index__slider-wrapper{
     margin: 10px 0 35px 20px;
-    width: 1500px;
+    width: 1550px;
     float: right;
 }
 
@@ -481,9 +481,10 @@ body{
 }
 
 .main-index__banner{
-        float: right;
-        width: 1500px;
-        background: url(../image/index__banner-bg.jpg) no-repeat;
+    float: right;
+    width: 1550px;
+    background: url(../image/index__banner-bg.jpg) no-repeat;
+
 }
 
 .main-index-banner-list__item-location,.main-index-banner-list__item-clock,.main-index-banner-list__item-phone{
@@ -504,4 +505,48 @@ body{
 
 .main-index-banner-list__item-phone{
     list-style: url(../image/index__banner-phone.png);
+}
+
+.main-index__slogan{
+    width: 100%;
+    clear: both;
+}
+
+.main-index-slogan__header{
+    text-align: center;
+    color: #57b536;
+    font-size: 36px;     
+}
+
+.main-index-slogan-info__portfolio{
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+.main-index-slogan-info-portfolio__mark-wrapper{
+    clear: right;
+    float: left;
+    
+
+}
+
+.main-index-slogan-info__portfolio-item{
+    display: inline-block;
+    width: 385px;
+    list-style: url(../image/index__main-slogan-brakets.png);
+    margin: 0 40px;
+}
+
+.main-index-slogan__arrows-wrapper,.main-index-slogan-info-portfolio__photo-wrapper{
+    text-align: center;
+}
+
+.main-index-slogan-info-portfolio__block,.main-index-slogan-info-portfolio__photo-wrapper{
+    width: 290px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.main-index-slogan__arrow-left-image,.main-index-slogan__arrow-right-image{
+    cursor: pointer;
 }
